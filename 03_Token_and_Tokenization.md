@@ -66,6 +66,7 @@
 
 - A token ID is the numerical representation of a token.
 - LLMs cannot directly understand text, so every token is converted into a unique number called a token ID.
+- Each unique token is mapped to an unique integer called token ID.
 
 > Example :
 >
