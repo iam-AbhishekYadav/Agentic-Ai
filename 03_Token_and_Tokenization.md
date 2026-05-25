@@ -20,6 +20,7 @@
 > **Possible tokens:**  
 > ["This", "is", "an", "example"] &ensp;  **OR**  &ensp;  ["This", " is", " an", " example"]
 
+---
 
 ## # What is Tokenization ?
 
@@ -59,9 +60,18 @@
 > - WordPiece
 > - SentencePiece
 
+---
 
+## # What is Token ID ??
 
+- A token ID is the numerical representation of a token.
+- LLMs cannot directly understand text, so every token is converted into a unique number called a token ID.
 
+> Example :
+>
+> **Text** : "I love AI"
+> **Tokens** : ["I", "love", "AI"]
+> **Token IDs** : [45, 782, 9012]
 
 
 
