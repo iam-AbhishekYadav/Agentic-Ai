@@ -5,6 +5,8 @@
 - Original tranformer is developed for **Machine translation**.
   - Ex : Translating english text to german and french
 
+---
+
 ## # Simplified Transformer Architecture
 
 Source : **Build a LLM from Scratch** (By - Sebastian Raschka)
@@ -70,7 +72,9 @@ Output Layers
 Generated Text
 ```
 
+---
 
+## #  
 
 
 
