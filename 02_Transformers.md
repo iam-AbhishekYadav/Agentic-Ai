@@ -7,6 +7,8 @@
 
 ## # Simplified Transformer Architecture
 
+Source : **Build a LLM from Scratch** (By - Sebastian Raschka)
+
 <img src="https://github.com/user-attachments/assets/8c84d060-191e-486d-9684-9f97143c6b39" width="1000" height="600">
 
 
