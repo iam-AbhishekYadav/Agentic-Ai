@@ -8,7 +8,6 @@
   - **Large** : Models have billions of parameters.
   - **Lnaguage Models** : These models do a wide range of NLP tasks ; question answering, translation, sentiment analysis and much more.
 
-
 ## LLMs vs Earlier NLP Models
 
 - LLMs : It can do wide range of NLP tasks.
@@ -23,12 +22,15 @@
 - Novel text generation
 - Sentiment analysis
 
+---
 
-## LLM vs Gen Ai vs Ai vs DL vs ML vs NLP
+##  # LLM vs Gen Ai vs Ai vs DL vs ML vs NLP
 
 <img src="https://github.com/user-attachments/assets/cd31fcd0-497e-4c3b-a2fe-29ed11a55260" width="800" height="600">
 
-## Pretraining vs Fine-tuning in LLMs
+---
+
+## # Pretraining vs Fine-tuning in LLMs
 
 | Feature | Pretraining | Fine-tuning |
 |---|---|---|
@@ -47,8 +49,9 @@
 - **Pretraining = School education**
 - **Fine-tuning = Job training/specialization**
 
+---
 
-## Pretraining + Fine-tuning Schematic
+## # Pretraining + Fine-tuning Schematic
 
 ```text
 +---------------------------------------------------+
@@ -95,3 +98,108 @@
 | • Translation                                      |
 | • Personal Assistant                               |
 +---------------------------------------------------+
+```
+
+---
+
+## # Steps for Building a LLM
+
+### Step-1
+- Train on a Large Corpus of Text Data (Raw Text)
+- Raw Text : Raw text means regular text without any labeling information.
+- Examples of Raw Text Data
+  - Internet text
+  - Books
+  - Articles
+  - Media content
+  - Research papers
+
+```text
+Raw Text Data
+      ↓
+Training
+```
+
+### Step-2
+- The first training stage of an LLM is called **Pretraining**.
+- **Goal** : Create an initial pretrained LLM  (Base / Foundational Model)
+- Example
+  - GPT-3 is a pretrained model.
+  - It is capable of text completion and next-word prediction.
+- Capabilities of a Pretrained LLM
+  - Predicting next words
+  - Understanding language patterns
+  - Basic reasoning
+  - General language understanding
+
+```text
+Raw Unlabeled Text
+        ↓
+Pretraining
+        ↓
+Pretrained / Foundation LLM
+```
+
+### Step-3
+- After obtaining the pretrained LLM, we can further train it using labeled datasets.
+- This process is called Fine-tuning
+
+```text
+Pretrained LLM
+        ↓
+Training on Labeled Data
+        ↓
+Fine-tuned LLM
+```
+
+### Step-4
+- There are two Popular Categories of Fine-tuning
+  - Instruction Fine-tuning
+  - Fine-tuning for Classification Tasks
+
+1. Instruction Fine-tuning
+
+- Labeled dataset consist of Instruction-answer pairs
+- Examples
+  - Text translation
+  - Chat assistants
+  - Airline customer support
+
+```text
+Instruction + Answer Pairs
+            ↓
+Instruction Fine-tuning
+```
+
+2. Fine-tuning for Classification Tasks
+
+- Labeled dataset consist of text with associated labels
+- Examples
+  - Email → Spam / Not Spam
+  - Review → Positive / Negative
+  - News → Sports / Politics
+
+### Example Format
+
+```text
+Text + Labels
+      ↓
+Classification Fine-tuning
+```
+
+
+### Overall Flow
+
+```text
+Raw Text Data
+      ↓
+Pretraining
+      ↓
+Pretrained / Foundation LLM
+      ↓
+Fine-tuning on Labeled Data
+      ↓
+Task-Specific Fine-tuned LLM
+```
+
+
